@@ -13,12 +13,13 @@ MetaGraphsNext = "fa8bd995-216d-47f1-8a91-f3b68fbeb377"
 RollupTree = "04c01c7a-6a3c-48fe-9315-f55725a63c92"
 TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
 
-[sources]
-RollupTree = {url = "https://github.com/jsjuni/RollupTree.jl", rev = "main"}
+[sources.RollupTree]
+rev = "main"
+url = "https://github.com/jsjuni/RollupTree.jl"
 
 [compat]
 ArtifactUtils = "0.2.4"
-Artifacts = "1.11.0"
+Artifacts = "1.11.0, 1"
 CSV = "0.10.15"
 DataFrames = "1.8.1"
 LinearAlgebra = "1.12.0"
