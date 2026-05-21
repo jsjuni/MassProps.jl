@@ -1,6 +1,6 @@
 name = "MassProps"
 uuid = "5839b151-e113-4d24-b6fd-5f05bf67e06c"
-version = "1.0.0-DEV"
+version = "1.0.0"
 authors = ["James Steven Jenkins <sjenkins@studioj.us> and contributors"]
 
 [deps]
@@ -12,10 +12,6 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MetaGraphsNext = "fa8bd995-216d-47f1-8a91-f3b68fbeb377"
 RollupTree = "04c01c7a-6a3c-48fe-9315-f55725a63c92"
 TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
-
-[sources.RollupTree]
-rev = "main"
-url = "https://github.com/jsjuni/RollupTree.jl"
 
 [compat]
 ArtifactUtils = "0.2.4"
